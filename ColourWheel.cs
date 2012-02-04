@@ -76,8 +76,10 @@ namespace ColourPickerComponents
             this.Radius = Math.Min(this.Width, this.Height) / 2;
             using (GraphicsPath path = new GraphicsPath())
             {
-                // Store away locations for later use. 
-                this.colorRectangle = new Rectangle(this.Left, this.Top, this.Radius*2, this.Radius*2);
+                // Store away locations for later use.
+                int Left = (int)Math.Round((double)(this.Width - (2 * this.Radius)) / 2d);
+                int Top = (int)Math.Round((double)(this.Height - (2 * this.Radius)) / 2d);
+                this.colorRectangle = new Rectangle(Left, Top, this.Radius*2, this.Radius*2);
 
                 // Calculate the center of the circle.
                 // Start with the location, then offset
