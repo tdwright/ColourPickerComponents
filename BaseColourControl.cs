@@ -31,6 +31,7 @@ namespace ColourPickerComponents
         // Mouse bools
         protected bool mouseInRegion = false;
         protected bool mouseDown = false;
+        public bool HasBeenClicked = false;
 
         // Colour handler
         protected ColourHandler.HSV HSV;

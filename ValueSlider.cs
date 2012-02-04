@@ -113,6 +113,7 @@ namespace ColourPickerComponents
         {
             if (this.mouseInRegion)
             {
+                this.HasBeenClicked = true;
                 this.mouseDown = true;
                 this.colourBeforeClick = this.SelectedColour;
                 this.UpdateBrightnessPoint(e.Location);
