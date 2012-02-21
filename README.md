@@ -1,5 +1,5 @@
-﻿HSV Colour Picker Components for C#
-===================================
+﻿HSV Colour Picker Components for .NET
+=====================================
 
 Using this [MSDN article](http://msdn.microsoft.com/en-us/magazine/cc164113.aspx) (by Ken Getz) as a starting point, these components allow for a [HSV](http://en.wikipedia.org/wiki/HSL_and_HSV) (Hue, Saturation, Value) colour picker to be built. The colour wheel sets the Hue and Saturation, the value slider sets the Value and the Swatch can be used to display the product.
 
